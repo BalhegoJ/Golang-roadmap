@@ -2,7 +2,8 @@ package main
 
 import "fmt"
 
-//Tipo com  de variaveis de tipos, parecido com um exemplo com um objeto em POO
+//Tipo de dado que agrupa varias variaveis em uma estrutura, parecido com um exemplo com um objeto em POO
+type usuario struct {
 type usuario struct {
 	nome string
 	idade int8
